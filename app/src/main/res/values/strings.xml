@@ -6,15 +6,15 @@
     <string-array name="intro_title_list">
         <item>Different Exercise</item>
         <item>Diet Plans</item>
+        <item>Daily Water Tracking</item>
         <item>Daily Reports</item>
-        <item>Weight Plan</item>
     </string-array>
 
     <string-array name="intro_message_list">
         <item>Daily workout routines for all your main muscle groups</item>
         <item>Follow diet plan to keep your body active and energetic</item>
+        <item>Reminds you to drink water, to take care of your health</item>
         <item>Keep track of all your daily health activities</item>
-        <item>Helping you lose weight, exercise has been linked to many other benefits, including improved mood, stronger bones, and a reduced risk of many chronic diseases</item>
     </string-array>
 
 </resources>

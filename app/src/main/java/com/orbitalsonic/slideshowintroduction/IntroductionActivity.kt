@@ -40,6 +40,11 @@ class IntroductionActivity : AppCompatActivity() {
             override fun onPageSelected(position: Int) {
                 indicatorView.onPageSelected(position)
                 btnBeforeNavigate.isEnabled = position != 0
+                if (position==viewPager.adapter!!.count-1){
+                    btnNextNavigate.setImageResource(R.drawable.ic_baseline_done_24)
+                }else if (position==viewPager.adapter!!.count-2){
+                    btnNextNavigate.setImageResource(R.drawable.ic_baseline_navigate_next_24)
+                }
             }
 
             override fun onPageScrollStateChanged(state: Int) {
